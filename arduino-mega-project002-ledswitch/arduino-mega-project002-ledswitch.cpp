@@ -4,8 +4,9 @@ int ledPin=13;
 boolean lastButton=false;
 boolean currentButton=false;
 int ledLevel=0;
+//changing the brightness of the led
 void setup() {
-  // initaliaze pins as utputs
+  // initaliaze pins as outputs
   pinMode(ledPin,OUTPUT);
   pinMode(switchPin,INPUT);
 
